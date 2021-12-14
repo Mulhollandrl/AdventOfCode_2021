@@ -31,6 +31,6 @@ def partTwo(increases, data):
 
     return increases
 
-print(partOne(increases, data))
-print(partTwo(increases, data))
+print(f"There are {partOne(increases, data)} increases in the file!")
+print(f"There are {partTwo(increases, data)} sum increases in the file!")
 
