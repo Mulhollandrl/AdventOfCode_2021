@@ -1,4 +1,4 @@
-file = open("data.txt")
+file = open("sample.txt")
 data = file.readlines()
 file.close()
 
@@ -31,15 +31,6 @@ def partTwo(increases, data):
 
     return increases
 
-def dude(data):
-    for i in range(len(data) - 3):
-        sum = int(data[i])
-        sum += int(data[i+1])
-        sum += int(data[i+2])
-
-        print(sum)
-
-dude(data)
 print(partOne(increases, data))
 print(partTwo(increases, data))
 

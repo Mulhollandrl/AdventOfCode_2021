@@ -12,7 +12,7 @@ class TestDay(unittest.TestCase):
 
     def test_partTwo(self):
         totalIncreases = day1.partTwo(0, sampleData)
-        self.assertEqual(totalIncreases, 4)
+        self.assertEqual(totalIncreases, 5)
 
 
 if __name__ == '__main__':
